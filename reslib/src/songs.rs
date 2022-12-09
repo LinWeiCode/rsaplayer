@@ -4,6 +4,11 @@ pub struct Songs
 }
 
 impl Songs {
+    /// Returns the play of this [`Songs`].
+    ///
+    /// # Panics
+    ///
+    /// Panics if .
     pub fn play(&self)
     {
         println!("{}--播放中",self.path_name);
